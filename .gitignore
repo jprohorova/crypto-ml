@@ -1,0 +1,6 @@
+.DS_Store
+build/
+data/*.csv
+results/*.png
+__pycache__/
+*.pyc

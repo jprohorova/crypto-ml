@@ -393,7 +393,7 @@ int main(int argc, char *argv[]) {
 
         for (int nb = 5; nb <= 8; nb++) {
             char fname[64];
-            snprintf(fname, sizeof(fname), "./data_nb%d.csv", nb);
+            snprintf(fname, sizeof(fname), "data/data_nb%d.csv", nb);
             generate_dataset(fname, 10000, nb, &def_box, 99999u + (unsigned)nb);
         }
 
