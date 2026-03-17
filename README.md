@@ -22,13 +22,6 @@ pip install -r requirements.txt
 python src/distinguisher.py --rounds 4
 ```
 
-You can also choose another round count, for example:
-
-```bash
-python src/distinguisher.py --rounds 5
-python src/distinguisher.py --rounds 6 --epochs 15 --batch-size 128
-```
-
 ## Build commands
 
 ### Compile the binary
@@ -126,21 +119,6 @@ Generate train/test datasets with separate key pools:
 ```bash
 ./build/speck split 10000 2500 4 data/train_nr_4.csv data/test_nr_4.csv --pool-size 64 --seed 42
 ```
-
-## Results to report
-
-Typical outputs from the Python distinguisher include:
-
-- overall test-set accuracy
-- train accuracy
-- test accuracy
-- random-label baseline accuracy
-
-A useful interpretation pattern is:
-
-- if test accuracy is clearly above `0.50`, the model may be learning a non-random structure in reduced-round SPECK pairs
-- if random-label accuracy stays near `0.50`, this is a good sanity check that the network is not succeeding by chance on meaningless labels
-- if train accuracy is much higher than test accuracy, the model may be overfitting
 
 ## Notes
 
