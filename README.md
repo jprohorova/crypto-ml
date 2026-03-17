@@ -90,7 +90,6 @@ Main arguments:
 - `--data-dir`: dataset directory, default is `data`
 - `--epochs`: training epochs, default is `10`
 - `--batch-size`: training batch size, default is `256`
-- `--seed`: random seed, default is `42`
 
 ## Dataset format
 
