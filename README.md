@@ -126,3 +126,39 @@ Generate train/test datasets with separate key pools:
 - The default differential is defined in `src/speck.c` through `DIFF_IN_L` and `DIFF_IN_R`.
 - The current neural model is a compact 1D CNN over the bit representation of ciphertext pairs.
 
+# Bibliography
+
+## Cryptography & Cryptanalysis
+
+- Kaplan, M., Leurent, G., Leverrier, A., & Naya-Plasencia, M. (2017).  
+  **Quantum Differential and Linear Cryptanalysis.**  
+  *IACR Transactions on Symmetric Cryptology.*  
+
+- No Author Given. (2019).  
+  **Neural Aided Statistical Attack for Cryptanalysis.**  
+  *Advances in Cryptology – CRYPTO 2019.*  
+
+- Singh, A., Sivangi, K. B., & Tentu, A. N. (2024).  
+  **Machine Learning and Cryptanalysis: An In-Depth Exploration of Current Practices and Future Potential.**  
+  *Journal of Computing Theories and Applications.*  
+
+---
+
+## Machine Learning & Cybersecurity
+
+- Ravi, V., Alazab, M., Soman, K. P., Srinivasan, S., Venkatraman, S., Pham, Q.-V., & K, S. (2021).  
+  **Deep Learning for Cyber Security Applications: A Comprehensive Survey.**  
+  *IEEE Access.*  
+
+- Akwaronwu, B. G., Akwaronwu, I. U., Adeniyi, O. J., & Abiodun, A. G. (2025).  
+  **Assessing Machine Learning Techniques for Cryptographic Attack Detection: A Systematic Review and Meta-Analysis.**  
+  *Indonesian Journal of Data and Science.*  
+
+---
+
+## Machine Learning Theory
+
+- Kim, A., Song, Y., Kim, M., Lee, K., & Cheon, J. H. (2018).  
+  **Logistic Regression Model Training Based on the Approximate Homomorphic Encryption.**  
+  *BMC Medical Genomics.*  
+
